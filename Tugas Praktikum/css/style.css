@@ -1,0 +1,102 @@
+/* ==========================================
+   CUSTOM THEME - SELARAS COFFE
+========================================== */
+:root {
+    --brand-primary: #6b4630;
+    --brand-primary-dark: #3b2a20;
+    --brand-accent: #c8793a;
+    --brand-background: #faf5ef;
+    --brand-surface: #ffffff;
+    --brand-text: #2b2018;
+    --brand-muted: #7a6a5d;
+    --brand-radius: 14px;
+}
+
+/* GLOBAL */
+html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+body {
+    background-color: var(--brand-background);
+    color: var(--brand-text);
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+.brand-navbar { background-color: var(--brand-primary-dark); }
+.brand-navbar .navbar-brand { color: var(--brand-accent); letter-spacing: .5px; }
+.brand-navbar .nav-link.active,
+.brand-navbar .nav-link:hover { color: var(--brand-accent); }
+
+/* LABEL */
+.section-label {
+    display: block;
+    color: var(--brand-accent);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    margin-bottom: 7px;
+}
+
+/* HERO */
+.hero-section {
+    background: linear-gradient(135deg, #f3e3cf 0%, var(--brand-background) 70%);
+}
+.hero-image { border-radius: 24px; box-shadow: 0 12px 30px rgba(59, 42, 32, .18); }
+
+/* BUTTON */
+.btn-brand {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+    color: #fff;
+}
+.btn-brand:hover, .btn-brand:focus {
+    background-color: var(--brand-primary-dark);
+    border-color: var(--brand-primary-dark);
+    color: #fff;
+}
+.btn-outline-brand {
+    border-color: var(--brand-primary);
+    color: var(--brand-primary);
+}
+.btn-outline-brand:hover {
+    background-color: var(--brand-primary);
+    color: #fff;
+}
+
+/* ALERT PROMO */
+.alert-brand {
+    background-color: #fbeedd;
+    border: 1px solid var(--brand-accent);
+    border-left-width: 6px;
+    color: var(--brand-primary-dark);
+}
+
+/* CARD */
+.stat-card, .product-card {
+    border: 0;
+    border-radius: var(--brand-radius);
+    box-shadow: 0 5px 18px rgba(59, 42, 32, .08);
+    overflow: hidden;
+}
+.stat-card h3 { color: var(--brand-primary); }
+.product-card { transition: transform .2s ease, box-shadow .2s ease; }
+.product-card:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(59, 42, 32, .15); }
+.badge-brand { background-color: var(--brand-accent); color: #fff; }
+.price { color: var(--brand-primary); }
+
+/* FORM */
+.contact-section { background-color: #f3e3cf; padding: 30px 0; }
+.form-control:focus, .form-select:focus {
+    border-color: var(--brand-accent);
+    box-shadow: 0 0 0 .2rem rgba(200, 121, 58, .2);
+}
+
+/* MODAL */
+.modal-header { border-bottom: 3px solid var(--brand-accent); }
+
+/* FOOTER */
+.brand-footer { background-color: var(--brand-primary-dark); color: #e9dccd; }
+
+/* Tablet */
+@media (min-width: 768px) { .contact-section { padding: 50px 0; } }
+/* Desktop */
+@media (min-width: 992px) { .contact-section { padding: 70px 0; } }

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexa Digital Technology</title>
+  <!-- Bootstrap CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS setelah Bootstrap -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark brand-navbar sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#beranda">Nexa <span>Digital</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama" aria-controls="menuUtama" aria-expanded="false" aria-label="Buka navigasi">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menuUtama">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#beranda">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#statistik">Statistik</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="beranda" class="hero-section py-5">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-12 col-lg-6">
+        <span class="badge custom-badge mb-3">TECHNOLOGY COMPANY</span>
+        <h1 class="fw-bold">Solusi Digital untuk Bisnis Masa Depan</h1>
+        <p class="lead text-secondary">Nexa Digital Technology membantu perusahaan membangun website, aplikasi, desain, keamanan, dan infrastruktur digital yang andal.</p>
+        <div class="d-flex flex-column flex-sm-row gap-2">
+          <a href="#layanan" class="btn btn-brand btn-lg">Lihat Layanan</a>
+          <button class="btn btn-outline-brand btn-lg" data-bs-toggle="modal" data-bs-target="#modalDetail" data-judul="Konsultasi Gratis" data-isi="Hubungi tim kami melalui form kontak untuk jadwal konsultasi gratis.">Konsultasi</button>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img src="images/hero.svg" alt="Nexa Digital Technology" class="img-fluid rounded-4 shadow">
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ALERT -->
+  <div class="alert alert-info alert-dismissible fade show mt-4" role="alert">
+    <strong>Promo!</strong> Gratis konsultasi IT untuk 10 klien pertama bulan ini.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Tutup"></button>
+  </div>
+
+  <!-- LAYANAN -->
+  <section id="layanan" class="py-5">
+    <div class="text-center mb-5">
+      <span class="section-label">LAYANAN KAMI</span>
+      <h2 class="fw-bold">Layanan Teknologi Nexa</h2>
+      <p class="text-secondary">Enam layanan utama untuk kebutuhan digital perusahaan Anda.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card service-card h-100">
+          <img src="images/layanan-1.svg" class="card-img-top" alt="Web Development">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5">Web Development</h3>
+            <p class="text-secondary">Jasa pembuatan website company profile, toko online, dan aplikasi web yang responsif.</p>
+            <button class="btn btn-brand mt-auto align-self-start" data-bs-toggle="modal" data-bs-target="#modalDetail" data-judul="Web Development" data-isi="Pembuatan website modern, cepat, dan responsif menggunakan HTML, CSS, JavaScript, dan framework terkini.">Detail</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card service-card h-100">
+          <img src="images/layanan-2.svg" class="card-img-top" alt="Mobile Application">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5">Mobile Application</h3>
+            <p class="text-secondary">Pengembangan aplikasi mobile Android dan iOS sesuai kebutuhan bisnis.</p>
+            <button class="btn btn-brand mt-auto align-self-start" data-bs-toggle="modal" data-bs-target="#modalDetail" data-judul="Mobile Application" data-isi="Aplikasi mobile dengan performa baik dan pengalaman pengguna yang nyaman di berbagai perangkat.">Detail</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card service-card h-100">
+          <img src="images/layanan-3.svg" class="card-img-top" alt="UI/UX Design">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5">UI/UX Design</h3>
+            <p class="text-secondary">Desain antarmuka pengguna yang menarik, konsisten, dan mudah digunakan.</p>
+            <button class="btn btn-brand mt-auto align-self-start" data-bs-toggle="modal" data-bs-target="#modalDetail" data-judul="UI/UX Design" data-isi="Riset pengguna, wireframe, prototype, hingga desain visual siap implementasi.">Detail</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card service-card h-100">
+          <img src="images/layanan-4.svg" class="card-img-top" alt="Cyber Security">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5">Cyber Security</h3>
+            <p class="text-secondary">Layanan keamanan digital untuk melindungi data dan sistem perusahaan.</p>
+            <button class="btn btn-brand mt-auto align-self-start" data-bs-toggle="modal" data-bs-target="#modalDetail" data-judul="Cyber Security" data-isi="Audit keamanan, pengujian kerentanan, dan pendampingan perlindungan data.">Detail</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card service-card h-100">
+          <img src="images/layanan-5.svg" class="card-img-top" alt="Cloud Computing">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5">Cloud Computing</h3>
+            <p class="text-secondary">Layanan penyimpanan dan infrastruktur cloud yang aman dan fleksibel.</p>
+            <button class="btn btn-brand mt-auto align-self-start" data-bs-toggle="modal" data-bs-target="#modalDetail" data-judul="Cloud Computing" data-isi="Migrasi, penyimpanan, dan pengelolaan infrastruktur cloud yang skalabel.">Detail</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card service-card h-100">
+          <img src="images/layanan-6.svg" class="card-img-top" alt="IT Consulting">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5">IT Consulting</h3>
+            <p class="text-secondary">Konsultasi teknologi informasi untuk transformasi digital bisnis.</p>
+            <button class="btn btn-brand mt-auto align-self-start" data-bs-toggle="modal" data-bs-target="#modalDetail" data-judul="IT Consulting" data-isi="Analisis kebutuhan, perencanaan strategi TI, dan pendampingan transformasi digital.">Detail</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATISTIK -->
+  <section id="statistik" class="pb-5">
+    <div class="row g-3">
+      <div class="col-12 col-sm-6 col-lg-3"><div class="card dashboard-card h-100"><div class="card-body"><p class="text-secondary mb-1">Proyek Selesai</p><h2 class="display-6 fw-bold stat-number">120+</h2><span class="badge text-bg-success">Sejak 2020</span></div></div></div>
+      <div class="col-12 col-sm-6 col-lg-3"><div class="card dashboard-card h-100"><div class="card-body"><p class="text-secondary mb-1">Klien</p><h2 class="display-6 fw-bold stat-number">45</h2><span class="badge text-bg-primary">Aktif</span></div></div></div>
+      <div class="col-12 col-sm-6 col-lg-3"><div class="card dashboard-card h-100"><div class="card-body"><p class="text-secondary mb-1">Layanan</p><h2 class="display-6 fw-bold stat-number">6</h2><span class="badge text-bg-info">Tersedia</span></div></div></div>
+      <div class="col-12 col-sm-6 col-lg-3"><div class="card dashboard-card h-100"><div class="card-body"><p class="text-secondary mb-1">Tim Ahli</p><h2 class="display-6 fw-bold stat-number">25</h2><span class="badge text-bg-success">Profesional</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- FORM KONTAK -->
+  <section id="kontak" class="contact-section">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="card border-0 shadow">
+          <div class="card-body p-4 p-md-5">
+            <span class="section-label">KONTAK</span>
+            <h2 class="h3 fw-bold">Hubungi Kami</h2>
+            <p class="text-secondary">Lengkapi form berikut. Field bertanda * wajib diisi.</p>
+            <form id="formKontak">
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap *</label>
+                <input type="text" class="form-control" id="nama" name="nama" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email *</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="nama@email.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="layananPilih" class="form-label">Layanan *</label>
+                <select class="form-select" id="layananPilih" name="layanan" required>
+                  <option value="">-- Pilih Layanan --</option>
+                  <option>Web Development</option><option>Mobile Application</option><option>UI/UX Design</option>
+                  <option>Cyber Security</option><option>Cloud Computing</option><option>IT Consulting</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" name="pesan" rows="4" maxlength="300"></textarea>
+              </div>
+              <button type="button" class="btn btn-brand" id="btnKirim">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="brand-footer py-4 mt-5">
+  <div class="container text-center">
+    <p class="mb-0">&copy; 2026 Nexa Digital Technology</p>
+  </div>
+</footer>
+
+<!-- MODAL DETAIL -->
+<div class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="judulDetail" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="judulDetail">Detail Layanan</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+      </div>
+      <div class="modal-body"><p id="isiDetail" class="mb-0"></p></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL KONFIRMASI -->
+<div class="modal fade" id="modalKonfirmasi" tabindex="-1" aria-labelledby="judulKonfirmasi" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="judulKonfirmasi">Konfirmasi Pesan</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+      </div>
+      <div class="modal-body">Apakah data yang dimasukkan sudah benar?</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Periksa Kembali</button>
+        <button type="button" class="btn btn-brand" id="btnYa" data-bs-dismiss="modal">Ya, Kirim</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Isi modal detail dari data tombol
+  document.getElementById('modalDetail').addEventListener('show.bs.modal', function (e) {
+    var b = e.relatedTarget;
+    document.getElementById('judulDetail').textContent = b.dataset.judul;
+    document.getElementById('isiDetail').textContent = b.dataset.isi;
+  });
+  // Validasi form sebelum membuka modal konfirmasi
+  document.getElementById('btnKirim').addEventListener('click', function () {
+    var f = document.getElementById('formKontak');
+    if (f.reportValidity()) new bootstrap.Modal(document.getElementById('modalKonfirmasi')).show();
+  });
+  // Setelah konfirmasi, tampilkan alert sukses
+  document.getElementById('btnYa').addEventListener('click', function () {
+    document.getElementById('formKontak').reset();
+    var a = document.createElement('div');
+    a.className = 'alert alert-success alert-dismissible fade show mt-3';
+    a.innerHTML = '<strong>Berhasil!</strong> Pesan Anda telah terkirim.<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Tutup"></button>';
+    document.getElementById('formKontak').appendChild(a);
+  });
+</script>
+</body>
+</html>

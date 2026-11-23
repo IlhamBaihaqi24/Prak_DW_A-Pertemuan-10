@@ -1,0 +1,51 @@
+/* ===== CUSTOM THEME (Nexa Digital Technology) ===== */
+:root{
+  --brand-primary:#17408f;
+  --brand-primary-dark:#0f2a5c;
+  --brand-accent:#00b8d9;
+  --brand-background:#f3f7fc;
+  --brand-surface:#ffffff;
+  --brand-text:#1d2733;
+  --brand-muted:#667385;
+  --brand-radius:12px;
+  --brand-shadow:0 6px 20px rgba(15,42,92,.10);
+}
+html{scroll-behavior:smooth}
+body{background:var(--brand-background);color:var(--brand-text);line-height:1.65;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif}
+
+/* Navbar */
+.brand-navbar{background-color:var(--brand-primary-dark)}
+.brand-navbar .navbar-brand span{color:var(--brand-accent)}
+.brand-navbar .nav-link{color:rgba(255,255,255,.8)}
+.brand-navbar .nav-link:hover,.brand-navbar .nav-link.active{color:#fff}
+
+/* Hero */
+.hero-section{background:linear-gradient(135deg,#e6f1fb,var(--brand-background))}
+.hero-section h1{font-size:2.1rem}
+.custom-badge{background-color:var(--brand-accent);color:var(--brand-primary-dark)}
+
+/* Label */
+.section-label{display:block;color:var(--brand-primary);font-size:12px;font-weight:bold;letter-spacing:1.4px;margin-bottom:7px}
+
+/* Buttons */
+.btn-brand{background-color:var(--brand-primary);border-color:var(--brand-primary);color:#fff}
+.btn-brand:hover{background-color:var(--brand-primary-dark);border-color:var(--brand-primary-dark);color:#fff}
+.btn-outline-brand{background:transparent;border:1px solid var(--brand-primary);color:var(--brand-primary)}
+.btn-outline-brand:hover{background-color:var(--brand-primary);color:#fff}
+
+/* Cards */
+.service-card,.dashboard-card{border:0;border-radius:var(--brand-radius);box-shadow:var(--brand-shadow);overflow:hidden;transition:transform .2s,box-shadow .2s}
+.service-card:hover{transform:translateY(-5px);box-shadow:0 12px 28px rgba(15,42,92,.16)}
+.service-card .card-img-top{width:100%;aspect-ratio:8/5;height:auto;object-fit:contain;background:#0f2a5c}
+.stat-number{color:var(--brand-primary)}
+
+/* Form */
+.form-control:focus,.form-select:focus{border-color:var(--brand-primary);box-shadow:0 0 0 .2rem rgba(23,64,143,.15)}
+.contact-section{padding:30px 0}
+
+/* Footer */
+.brand-footer{background-color:var(--brand-primary-dark);color:#fff}
+
+/* Mobile-first */
+@media(min-width:768px){.hero-section h1{font-size:2.7rem}.contact-section{padding:50px 0}}
+@media(min-width:992px){.hero-section h1{font-size:3.2rem}.contact-section{padding:70px 0}}
