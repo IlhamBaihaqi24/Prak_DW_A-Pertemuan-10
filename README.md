@@ -88,23 +88,23 @@ Company profile UMKM kopi lokal dengan warna cokelat espresso, krem, dan aksen k
  
 #### Tampilan Desktop
  
-![Desktop Full](Tugas%20Praktikum/dokumentasi/desktop-full.png)
+<img width="1366" height="2782" alt="desktop-full" src="https://github.com/user-attachments/assets/4c97731e-6a14-4a17-8aa4-6dae418c79ae" />
+
  
 #### Tampilan Modal Detail Produk
  
-![Desktop Modal](Tugas%20Praktikum/dokumentasi/desktop-modal.png)
- 
-#### Tampilan Form Validasi
- 
-![Desktop Form Validasi](Tugas%20Praktikum/dokumentasi/desktop-form-validasi.png)
+<img width="1366" height="800" alt="desktop-modal" src="https://github.com/user-attachments/assets/4953244c-e4d5-4da0-a90c-76205945d92b" />
+
  
 #### Tampilan Mobile
  
-![Mobile Full](Tugas%20Praktikum/dokumentasi/mobile-full.png)
+<img width="402" height="4436" alt="mobile-full" src="https://github.com/user-attachments/assets/9e3765c2-8006-4935-a8d8-62585f03224a" />
+
  
 #### Tampilan Menu Mobile
- 
-![Mobile Menu](Tugas%20Praktikum/dokumentasi/mobile-menu.png)
+
+ <img width="390" height="800" alt="mobile-menu" src="https://github.com/user-attachments/assets/0c0b4a80-25da-464b-9422-51e4f9447239" />
+
  
 ---
  
